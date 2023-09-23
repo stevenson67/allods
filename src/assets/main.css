@@ -1,0 +1,26 @@
+@import './base.css';
+
+#app {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+}
+.container {
+  max-width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+a {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
